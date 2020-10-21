@@ -54,7 +54,7 @@ section{
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
   margin: 0 auto;
 }
 body {
@@ -171,6 +171,8 @@ footer {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+
+    margin-bottom: 50px;
 }
 /*section4-comand*/
 .section-comand {
@@ -180,12 +182,21 @@ footer {
     background-color: var(--primary-white-color);
     font-size: 16px;
     line-height: 1.19;
+
+    padding-bottom: 30px;
 }
 .comand-list .title {
     color: var(--title-text-color);
     font-weight: 500;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+
 }
 /*section-portfolio*/
+.list-button {
+    margin-bottom: 50px;
+}    
 .list-button .button {
     background-color: var(--background-section-comand);
     color: var(--title-text-color);
@@ -194,13 +205,14 @@ footer {
     line-height: 1.63;
     letter-spacing: 0.03em;
     padding: 6px 22px;
+  
 }
 .list-button .button:hover,
 .list-button .button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
-.section-portfolio{
+.section-portfolio {
     background-color: var(--general-background-page);
 }
 .list-portfolio li {
@@ -216,12 +228,28 @@ footer {
     line-height: 2;
     text-decoration: none;
     letter-spacing: 0.06em;
+
+    width: 322px;
+    height: 36px;
+    margin-bottom: 4px;
 }
 .category-product {
     color: var(--primary-text-color);    
     font-size: 16px;
     line-height: 1.88;
+
+    width: 322px;
+    height: 30px;
+    margin-bottom: 0;
+    margin-right: 0;
 }
+.item-product {
+    padding: 20px 24px;
+}
+
+/* .item > .title-portfolio, .category-product {
+    padding: 20px 24px; */
+
 /*footer-address*/
 .logo-footer{
     color: var(--primary-white-color);
