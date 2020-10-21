@@ -1,0 +1,172 @@
+/*background-color-header-page:
+    background-color-header-and-images-list: #FFFFFF;
+    background-hero-footer: #2F303A;
+    general-background-page: #E5E5E5;
+    background-section3-comand: #F5F4FA;
+*/
+
+/* font-family: 'Raleway', sans-serif;
+   font-family: 'Roboto', sans-serif; 
+*/
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --contact-text-color: rgba(255, 255, 255, 0.6);
+    --background-hero-footer: #2F303A;
+    --general-background-page: #E5E5E5;
+    --background-section-comand: #F5F4FA;
+}
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* Logo */
+.logo {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+} 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+} 
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--accent-color);
+}
+.list {
+    list-style: none;
+}
+/*section1-hero */
+.hero,
+footer {
+    background-color: var(--background-hero-footer);
+}
+.hero-title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero .button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+/*section2-feature */
+.feature-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+/*section3-product*/
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+/*section4-comand*/
+.section-comand {
+    background-color: var(--background-section-comand);
+}
+.comand-list li {
+    background-color: var(--primary-white-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+.comand-list .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+}
+/*section-portfolio*/
+.list-button .button {
+    background-color: var(--background-section-comand);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+.list-button .button:hover,
+.list-button .button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.section-portfolio{
+    background-color: var(--general-background-page);
+}
+.list-portfolio li {
+    background-color: var(--primary-white-color);
+}
+.list-portfolio .link {
+    text-decoration: none; 
+}
+.title-portfolio {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+}
+.category-product {
+    color: var(--primary-text-color);    
+    font-size: 16px;
+    line-height: 1.88;
+}
+/*footer-address*/
+.logo-footer{
+    color: var(--primary-white-color);
+}
+.footer-address{ 
+    color: var(--primary-white-color);
+    font-style: normal;
+}
+.contact .link-contact {
+    color: var(--contact-text-color);
+    text-decoration: none;
+} 
+.contact .link-contact:hover,
+.contact .link-contact:focus {
+    color: var(--accent-color);
+}
