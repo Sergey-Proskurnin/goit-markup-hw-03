@@ -141,8 +141,15 @@ body {
 }
 /*section1-hero */
 .hero,
-footer {
+.footer {
     background-color: var(--background-hero-footer);
+}
+.hero-container{
+    display: inline-block;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 700px;
+    
 }
 .hero{
     text-align: center;
@@ -251,9 +258,27 @@ footer {
 
     margin-top: 30px;
     margin-bottom: 10px;
-
 }
-/*section-portfolio*/
+.comand-item {
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    flex-basis: calc(100% / 4 - 30px);
+
+    }
+.comand-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+        /* margin-top: -30px; */
+}
+.comand-item p {
+    margin-bottom: 0px;
+}
+   /*section-portfolio*/
 .list-button {
     margin-bottom: 50px;
 }    
@@ -306,7 +331,6 @@ footer {
 .item-product {
     padding: 20px 24px;
 }
-
 /* .item > .title-portfolio, .category-product {
     padding: 20px 24px; */
 
