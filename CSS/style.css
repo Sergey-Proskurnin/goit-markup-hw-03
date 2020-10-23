@@ -30,6 +30,13 @@ html {
     max-width: 100%;
     height: auto;
 }
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
@@ -38,12 +45,6 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
-}
-h1,
-h2,
-h3,
-p {
-    margin-top: 0;
 }
 /* utilities */
 .section{
@@ -69,7 +70,7 @@ p {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     margin: 0 auto;
 }
 .button {
@@ -110,8 +111,8 @@ p {
     margin-right: 93px;
 }
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contact-list {
     display: inline-flex;
@@ -176,7 +177,6 @@ p {
     display: block;
 
     margin-bottom: 30px;
-    /* outline: 2px solid tomato; */
 }
 .hero .button {
     background-color: var(--accent-color);
@@ -199,6 +199,7 @@ p {
 .feature-list .title {
     color: var(--title-text-color);
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -207,6 +208,9 @@ p {
 }
 .feature-list p{
     margin-bottom: 0;
+    padding-block-start: 3px;
+    padding-block-end: 3px;
+    
 }
 .feature-item {
     margin-left: 30px;
