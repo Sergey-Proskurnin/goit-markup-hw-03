@@ -14,7 +14,7 @@
     --primary-white-color: #ffffff;
     --contact-text-color: rgba(255, 255, 255, 0.6);
     --background-hero-footer: #2F303A;
-    --general-background-page: #E5E5E5;
+    /* --general-background-page: #E5E5E5; */
     --background-section-comand: #F5F4FA;
 }
 html {
@@ -291,9 +291,6 @@ body {
     color: var(--primary-white-color);
     border-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.section-portfolio {
-    background-color: var(--general-background-page);
 }
 .list-portfolio{
     margin-top: -30px;
